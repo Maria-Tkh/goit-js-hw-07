@@ -5,6 +5,6 @@ input.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
    
-     nameLabel.textContent = event.currentTarget.value || 'незнакомец';
+     nameLabel.textContent = event.currentTarget.value.trim() || 'незнакомец';
 } 
    
